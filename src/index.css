@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'FF Mark';
+  src: local('FF Mark Black'), local('FF-Mark-Black'),
+      url('./assets/fonts/Mark-Black.woff2') format('woff2'),
+      url('./assets/fonts/Mark-Black.woff') format('woff'),
+      url('./assets/fonts/Mark-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+  font-family: 'FF Mark';
+}
+
+:root {
+  font-family: 'FF Mark';
+  line-height: 1.5;
+  font-weight: 400;
+  color: rgb(51, 44, 44);
+  background-color: white;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  }
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+

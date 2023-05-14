@@ -1,0 +1,83 @@
+.container {
+  min-height: 100vh;
+}
+
+.content {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  min-height: 100vh;
+  background-color: black;
+  z-index: 2;
+}
+.page-one-bg {
+  background-image: url('https://raw.githubusercontent.com/AJManzione/mjmanz_assets/master/img_low/page-1-min/author-faded-min.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.port {
+  position: absolute;
+  top: 0;
+  max-height: 60vh; 
+  opacity: 0.2;
+}
+
+.folio {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  max-height: 100vh;
+  transform: translate(-100%, 0);
+  opacity: 0.2;
+}
+
+#profile-pic {
+  position: absolute;
+  top: 55%;
+  left: 70%;
+  transform:translate(-50%, -50%);
+  max-width: 24vw;
+  z-index: 2;
+}
+
+#profile-pic-faded {
+  position: fixed;
+  top: 55%;
+  left: 20%;
+  transform:translate(-50%, -50%);
+  width: 40vw;
+  z-index: 1;
+}
+
+.text-container {
+  position: absolute;
+  top: 55%;
+  left: 30%;
+  margin: auto;
+  transform: translate(-50%, -50%);
+  list-style: none;
+  text-align: end;
+}
+
+.text {
+  color: black;
+  -webkit-text-fill-color: transparent; 
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-size: 3vw;
+}
+
+.text span {
+  color: black;
+  -webkit-text-fill-color: black; 
+  -webkit-text-stroke-width: 1.3px;
+  -webkit-text-stroke-color: transparent;
+  font-size: 3vw;
+}
+
+@keyframes shadow-in {
+  to {
+    box-shadow: 20px 20px black;
+  }
+}
